@@ -1,3 +1,6 @@
+html{
+	height: 100%;
+}
 
 body{
 	/*background-image: url("https://images.unsplash.com/photo-1415045384817-2f9cf7f2ed79?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=378764e805188440c79e0ec49383efe7");
@@ -7,6 +10,12 @@ body{
 */
 	padding-top: 70px;
 	font-family: 'Noto Serif', serif;
+
+background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F1F1F1, #649E8F, #949496, #0B4D3C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #56758C, #F1F1F1, #99AFC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*, #566C69*/
+
 }
 
 h2{
@@ -14,25 +23,41 @@ h2{
 	color: slategrey;
 	font-size: 25px;
 	text-decoration: underline;
+
 }
 
 h5{
-	text-align: center;
-	color: slategrey;
+	text-align: left;
+	color: #566C69;
 	font-size: 20px;
 }
 
-ul{
+div ul{
 	list-style: none;
 	font-size: 16px;
-	text-align: center;
+	text-align: left;
+	padding: none;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+p{
+	font-weight: 700;
+
 }
 
 .navbar{
 background: #ADA996;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: linear-gradient(to right, #66859C, #EAEAEA, #F1F1F1, #264C69); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-bottom: none;
+padding-bottom: none;
 	
 }
 .hover:hover{				/*this basically says when we hover over an li, select the span*/
@@ -48,4 +73,12 @@ background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3
 
 .indent{
 	text-indent: 40px;
+}
+
+.skills{
+
+	margin auto 0;
+	padding-left: 10px;
+	border-left: 5px solid grey;
+	height: 180px;
 }
