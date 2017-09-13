@@ -15,8 +15,8 @@ a{
 
 h2{
 	text-align: center;
-	color: slategrey;
-	font-size: 25px;
+/*	color: slategrey;*/
+	font-size: 30px;
 	text-decoration: underline;
 
 }
@@ -24,8 +24,8 @@ h2{
 h5{
 	text-align: left;
 	padding-left: 25px;
-	color: #566C69;
-	font-size: 20px;
+/*	color: #566C69;*/
+	font-size: 25px;
 }
 
 .bullets{
