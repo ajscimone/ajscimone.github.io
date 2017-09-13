@@ -3,19 +3,14 @@ html{
 }
 
 body{
-	/*background-image: url("https://images.unsplash.com/photo-1415045384817-2f9cf7f2ed79?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=378764e805188440c79e0ec49383efe7");
-    background-image-height: 100%; 
-    background-size: cover;
-    background-position: center;
-*/
+
 	padding-top: 70px;
 	font-family: 'Noto Serif', serif;
+/*	background: #EEEEEE;*/
+}
 
-background: #8e9eab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #F1F1F1, #649E8F, #949496, #0B4D3C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #56758C, #F1F1F1, #99AFC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-/*, #566C69*/
-
+a{
+	color: white;
 }
 
 h2{
@@ -28,15 +23,19 @@ h2{
 
 h5{
 	text-align: left;
+	padding-left: 25px;
 	color: #566C69;
 	font-size: 20px;
 }
 
-div ul{
+.bullets{
 	list-style: none;
 	font-size: 16px;
 	text-align: left;
-	padding: none;
+	padding-left: 5px;
+	border-left: 4px solid grey;
+/*	padding-left: none;
+	margin: 0;*/
 
 }
 
@@ -48,8 +47,8 @@ hr {
 }
 
 p{
+	text-align: left;
 	font-weight: 700;
-
 }
 
 .navbar{
@@ -72,13 +71,16 @@ padding-bottom: none;
 }
 
 .indent{
-	text-indent: 40px;
+	text-indent: 20px;
 }
 
 .skills{
 
 	margin auto 0;
-	padding-left: 10px;
-	border-left: 5px solid grey;
 	height: 180px;
+}
+
+.project{
+	width: 100%;
+	margin: auto auto;
 }
